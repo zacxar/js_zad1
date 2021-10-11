@@ -1,4 +1,45 @@
-.header {
-    font-size: 250%;
-    font-family: Arial;
+body {
+    background-color: #666699;
+    font-family: Consolas;
+    font-size: 20px;
+    color: black;
+}
+
+
+#container {
+    width: 1024px;
+    background-color: #33334d;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header {
+    font-size: 48px;
+    color: white;
+    text-align: center;
+    text-shadow: -3px -3px #666666;
+    border-bottom: solid #000000;
+}
+
+nav {
+    text-align: center;
+    text-decoration-line: none;
+    margin-left: auto;
+    margin-right: auto;
+    border-bottom: solid #000000;
+}
+
+a:link {
+    color: #ffffff;
+    text-decoration-line: none;
+}
+
+a:visited {
+    color: #ffffff;
+    text-decoration-line: none;
+}
+
+a:hover {
+    color: #666699;
+    text-decoration-line: none;
 }
