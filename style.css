@@ -79,18 +79,29 @@ nav a {
     width: 600px;
     height: 1px;
     margin-left: 5px;
-
 }
 
-.articles h2 {
+article {
+    width: 600px;
+}
+
+article h2 {
     font-style: italic;
-    font-size: 18px;
+    font-size: 17px;
     position: relative;
     left: 5px;
 }
 
+article p {
+    /* word-wrap: normal; */
+    font-size: 15px;
+    position: relative;
+    left: 10px;
+}
+
 aside {
     flex: 1;
+    max-width: 338px;
 }
 
 aside hr {
@@ -105,6 +116,15 @@ aside h1, .articles h1 {
     font-size: 25px;
     position: relative;
     left: 10px;
+}
+
+aside article {
+    width: 250px;
+}
+
+aside article h2{
+    font-style: italic;
+    font-size: 14px;
 }
 
 footer {
