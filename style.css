@@ -1,6 +1,6 @@
 body {
     background-color: #666699;
-    font-family: Consolas;
+    font-family: Courier New;
     font-size: 20px;
     color: black;
 }
@@ -9,16 +9,20 @@ body {
 #container {
     width: 1024px;
     background-color: #33334d;
+    border: 3px solid;
+    border-color: #0a0a10;
     margin-left: auto;
     margin-right: auto;
+    border-radius: 25px;
 }
 
 header {
     font-size: 48px;
-    color: white;
+    font-weight: bold;
+    color: #ffffff;
     text-align: center;
     text-shadow: -3px -3px #666666;
-    border-bottom: solid #000000;
+    border-bottom: solid #14141f;
 }
 
 nav {
@@ -26,15 +30,10 @@ nav {
     text-decoration-line: none;
     margin-left: auto;
     margin-right: auto;
-    border-bottom: solid #000000;
+    border-bottom: solid #14141f;
 }
 
-a:link {
-    color: #ffffff;
-    text-decoration-line: none;
-}
-
-a:visited {
+a:link, a:visited {
     color: #ffffff;
     text-decoration-line: none;
 }
@@ -42,4 +41,32 @@ a:visited {
 a:hover {
     color: #666699;
     text-decoration-line: none;
+}
+
+nav a {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+footer {
+    clear: both;
+    text-align: center;
+}
+
+#container2 {
+    display: flex;
+    border-bottom: solid #14141f;
+}
+
+article {
+    flex: 2;
+    background-color: #b3b3cc;
+    min-height: 500px;
+}
+
+aside {
+    display: flex;
+    flex: 1;
+    background-color: white;
+    min-height: 500px;
 }
